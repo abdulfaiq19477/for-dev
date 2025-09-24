@@ -54,7 +54,7 @@ const Login = () => {
 
           <button disabled={isSubmitting} className={style.btn} type="submit">Login</button>
           <p className={style.p} >
-            Don't have account? <Link className={style.link} href="/regsister" >Register</Link>
+            {"Don't have account?"} <Link className={style.link} href="/regsister" >Register</Link>
           </p>
         </form>
       </div>
